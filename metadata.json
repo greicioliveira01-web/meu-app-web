@@ -1,0 +1,7 @@
+{
+  "name": "NEXON",
+  "description": "NEXON: Assistente de IA para Análise Gráfrica Profissional.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
