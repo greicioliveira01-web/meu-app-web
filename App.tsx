@@ -1,13 +1,13 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { ImageUploader } from './components/ImageUploader';
-import { AnalysisDisplay } from './components/AnalysisDisplay';
-import { ActionButtons } from './components/ActionButtons';
-import { Loader } from './components/Loader';
-import { ErrorDisplay } from './components/ErrorDisplay';
+import { ImageUploader } from './componentes/ImageUploader';
+import { AnalysisDisplay } from './componentes/AnalysisDisplay';
+import { ActionButtons } from './componentes/ActionButtons';
+import { Loader } from './componentes/Loader';
+import { ErrorDisplay } from './componentes/ErrorDisplay';
 import { analyzeChartImage, AnalysisResult } from './services/geminiService';
-import { TimeframeSelector } from './components/TimeframeSelector';
-import { AuthPage } from './components/AuthPage';
-import AnalyticsPage from './components/AnalyticsPage';
+import { TimeframeSelector } from './componentes/TimeframeSelector';
+import { AuthPage } from './componentes/AuthPage';
+import AnalyticsPage from './componentes/AnalyticsPage';
 import { recordWin, recordLoss } from './utils/analytics';
 
 export type Timeframe = 'M1' | 'M5' | 'M15';
